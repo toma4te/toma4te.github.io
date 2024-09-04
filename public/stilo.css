@@ -11,7 +11,21 @@ body {
 }
 
 p {
-    margin: 0;
+    margin: 0.5rem;
+}
+
+hr {
+    margin-bottom: 20px;
+    border: 1.2px solid black;
+}
+
+#info {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.ora-info {
+    margin-left: 2rem;
 }
 
 #content {
@@ -21,8 +35,8 @@ p {
     margin-top:-50px; /* this is half the height of your div*/  
     /*margin-left:-100px; /*this is half of width of your div*/
     background-color: #DBB784;
-    margin-left: 10vh;
-    margin-right: 10vh;
+    margin-top: 40px;
+    padding: 20px;
   }
 
 .font1 {
@@ -31,5 +45,94 @@ p {
 }
 .font2 {
     font-family: 'PT Serif', serif;
-    font-size: 20px;
 }
+
+/* Large desktops and laptops */ 
+@media (min-width: 1200px) { 
+    .header-fonsize-1 {
+        font-size: 44px;
+    }
+    .header-fonsize-2 {
+        font-size: 26px;
+    }
+    .header-fonsize-3 {
+        font-size: 15px;
+    }
+
+    #content {
+        margin-left: 20vh;
+        margin-right: 20vh;
+      }
+} 
+     
+    /* Landscape tablets and medium desktops */ 
+@media (min-width: 992px) and (max-width: 1199px) { 
+    .header-fonsize-1 {
+        font-size: 40px;
+    }
+    .header-fonsize-2 {
+        font-size: 24px;
+    }
+    .header-fonsize-3 {
+        font-size: 15px;
+    }
+
+    #content {
+        margin-left: 10vh;
+        margin-right: 10vh;
+      }
+} 
+     
+    /* Portrait tablets and small desktops */ 
+@media (min-width: 768px) and (max-width: 991px) { 
+    .header-fonsize-1 {
+        font-size: 42px;
+    }
+    .header-fonsize-2 {
+        font-size: 24px;
+    }
+    .header-fonsize-3 {
+        font-size: 15px;
+    }
+
+    #content {
+        margin-left: 6vh;
+        margin-right: 6vh;
+      }
+} 
+     
+    /* Landscape phones and portrait tablets */ 
+@media (max-width: 767px) { 
+    .header-fonsize-1 {
+        font-size: 40px;
+    }
+    .header-fonsize-2 {
+        font-size: 22px;
+    }
+    .header-fonsize-3 {
+        font-size: 14px;
+    }
+
+    #content {
+        margin-left: 3vh;
+        margin-right: 3vh;
+      }
+} 
+     
+    /* Portrait phones and smaller */ 
+@media (max-width: 480px) { 
+    .header-fonsize-1 {
+        font-size: 32px;
+    }
+    .header-fonsize-2 {
+        font-size: 20px;
+    }
+    .header-fonsize-3 {
+        font-size: 14px;
+    }
+
+    #content {
+        margin-left: 1vh;
+        margin-right: 1vh;
+      }
+} 
