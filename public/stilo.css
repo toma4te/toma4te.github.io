@@ -1,3 +1,27 @@
 body {
-    background-color: brown;
+    margin: 0;
+    padding: 0;
+    background-image: url("../public/bg.jpg");
+    background-color: antiquewhite;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+#content {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-50px; /* this is half the height of your div*/  
+    margin-left:-100px; /*this is half of width of your div*/
+  }
+
+.font1 {
+    font-family: 'Rufina', serif;
+    font-size: 48px;
+}
+.font2 {
+    font-family: 'PT Serif', serif;
+    font-size: 16px;
 }
