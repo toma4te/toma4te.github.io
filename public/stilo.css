@@ -19,6 +19,13 @@ hr {
     border: 1.2px solid black;
 }
 
+ul {
+    list-style-type: none; /* Remove bullets */
+    padding-left: 1.5rem; /* Remove padding */
+    margin: 0; /* Remove margins */
+  }
+
+
 #info {
     margin-top: 40px;
     margin-bottom: 40px;
