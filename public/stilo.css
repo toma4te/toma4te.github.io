@@ -63,10 +63,14 @@ ol {
     text-align: center;
 }
 
-#kiiras a {
+.big {
     font-size: 1.2rem; 
     font-weight: 800;
     text-transform: uppercase;
+}
+
+#info ul{
+    margin-top: -0.5rem;
 }
 
 /* Large desktops and laptops */ 
